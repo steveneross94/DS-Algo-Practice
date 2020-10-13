@@ -4,10 +4,10 @@ const firstRepChar = arr => {
     let result = {}
     for (let i = 0; i < arr.length; i++){
         console.log(result);
-        if (result[arr[i]]){
-            return arr[i]
+        if (!result[arr[i]]){
+           result[arr[i]] = 1
         } else {
-            result[arr[i]] = 1
+            return arr[i]
         }
     }
     return undefined
