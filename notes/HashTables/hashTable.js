@@ -10,6 +10,8 @@ The key points to an index and that is done via the hash function
 Hash Function - a function that generates a value of fixed length for each input that it gets
 
 The fact that we can create a hash, but we cant recreate the word back from the hash, is called idempotent. This is also what allows us to find our keys very quickly
+
+Usually the answer to improve time complexity but will cost us space complexity
 */
 
 let user = {
