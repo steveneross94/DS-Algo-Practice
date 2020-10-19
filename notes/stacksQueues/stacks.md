@@ -1,0 +1,13 @@
+## Stacks
+- LIFO (last in first out), think of them like plates that get stacked on top of one another
+- So, why are they useful?
+  - Very good if you need to know the last value that was seen or added
+  - Stacks are important in language specific engines
+  - Browser history
+  - Using undo/redo
+- Most languages are built with the stack model in mind
+- 3 types of methods that you'll use
+  - pop O(1)
+  - push O(1)
+  - peek O(1)
+  - lookup O(n)
